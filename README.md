@@ -48,7 +48,8 @@
 
 Первичный код:
 
-``` import RPi.GPIO as GPIO
+```
+import RPi.GPIO as GPIO
 import time
 
 # Установка режима нумерации GPIO пинов
@@ -100,11 +101,14 @@ try:
         time.sleep(1)  # Пауза 1 секунда
 
 except KeyboardInterrupt:
-    GPIO.cleanup()  # Выполнить очистку GPIO при прерывании программы Ctrl+C ```
+    GPIO.cleanup()  # Выполнить очистку GPIO при прерывании программы Ctrl+C
+```
+
 
 Измененный код:
 
-``` import RPi.GPIO as GPIO
+```
+import RPi.GPIO as GPIO
 import time
 
 class MotorControl:
@@ -147,19 +151,13 @@ try:
         time.sleep(1)
 
 except KeyboardInterrupt:
-    GPIO.cleanup()  # Очистка GPIO при прерывании программы Ctrl+C ```
+    GPIO.cleanup()  # Очистка GPIO при прерывании программы Ctrl+C
+```
 
 
-
-###Заключение
+### Заключение
 
 Да всё норм. Что тут излагать впечатления от работы с Git. Планов тоже нет...
-
-
-
-
-
-
 
 
 
